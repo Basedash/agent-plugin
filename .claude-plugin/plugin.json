@@ -2,14 +2,14 @@
   "name": "basedash",
   "displayName": "Basedash",
   "version": "1.0.0",
-  "description": "One-click Basedash MCP for asking questions of governed company data and listing connected sources.",
+  "description": "Ask questions of governed company data and list connected sources through Basedash.",
   "author": {
     "name": "Basedash",
-    "email": "hello@basedash.com"
+    "email": "hello@basedash.com",
+    "url": "https://www.basedash.com"
   },
   "homepage": "https://www.basedash.com",
   "repository": "https://github.com/Basedash/agent-plugin",
   "license": "MIT",
-  "keywords": ["basedash", "mcp", "analytics", "bi", "data"],
-  "logo": "logo.svg"
+  "keywords": ["basedash", "mcp", "analytics", "bi", "data"]
 }
