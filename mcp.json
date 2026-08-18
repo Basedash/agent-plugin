@@ -1,0 +1,6 @@
+{
+  "basedash": {
+    "type": "http",
+    "url": "https://charts.basedash.com/api/public/mcp"
+  }
+}
