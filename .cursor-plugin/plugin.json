@@ -1,0 +1,15 @@
+{
+  "name": "basedash",
+  "displayName": "Basedash",
+  "version": "1.0.0",
+  "description": "One-click Basedash MCP for asking questions of governed company data and listing connected sources.",
+  "author": {
+    "name": "Basedash",
+    "email": "hello@basedash.com"
+  },
+  "homepage": "https://www.basedash.com",
+  "repository": "https://github.com/Basedash/cursor-plugin",
+  "license": "MIT",
+  "keywords": ["basedash", "mcp", "analytics", "bi", "data"],
+  "logo": "logo.svg"
+}
