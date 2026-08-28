@@ -1,8 +1,8 @@
 {
   "name": "basedash",
   "displayName": "Basedash",
-  "version": "1.0.0",
-  "description": "One-click Basedash MCP for asking questions of governed company data and listing connected sources.",
+  "version": "1.1.0",
+  "description": "One-click Basedash MCP for analyzing governed company data and managing dashboards and charts.",
   "author": {
     "name": "Basedash",
     "email": "hello@basedash.com"

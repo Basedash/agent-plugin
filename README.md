@@ -3,10 +3,11 @@
 Basedash MCP packaged for agent clients. One hosted server, OAuth, no API keys.
 
 - **MCP:** `https://charts.basedash.com/api/public/mcp`
-- **Tools:** `ask_question`, `get_data_sources`
+- **Data tools:** `ask_question`, `get_data_sources`
+- **Dashboard and chart tools:** `list_dashboards`, `get_dashboard`, `create_dashboard`, `edit_dashboard`, `list_charts`, `get_chart`, `create_chart`, `edit_chart`
 - **Logo:** `logo.svg`
 
-Workspace access controls still apply after you sign in.
+The MCP server uses the same workspace permissions as the Basedash app. Dashboard and chart reads are access-control aware. OAuth includes `mcp:dashboards:read` and `mcp:dashboards:write`; existing connections were backfilled and do not need to re-authenticate.
 
 ## Cursor
 
@@ -37,6 +38,8 @@ Repo layout for Claude: `.claude-plugin/plugin.json` and `.mcp.json`.
 
 - `discover-company-data` — list connected sources via `get_data_sources`
 - `analyze-company-data` — ask the AI data analyst via `ask_question` (pass `chat_id` to continue)
+- `inspect-dashboards-and-charts` — list and inspect accessible dashboards and charts
+- `manage-dashboards-and-charts` — create and edit dashboards and charts with natural-language instructions
 
 ## Links
 
